@@ -1,5 +1,5 @@
 package SistemaTrasmilenio;
 
-public class Bus {
+public abstract class Bus {
 
 }
