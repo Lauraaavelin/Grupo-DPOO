@@ -2,18 +2,18 @@ package SistemaTrasmilenio;
 
 public class Patio {
       private String ubicacion;
-	    private int cantidadBuses;
+	  private int cantidadBuses;
 
-	    public Patio(String ubicacion, int ubicacion) {
+	    public Patio(String ubicacion, int cantidadBuses) {
 	        this.ubicacion = ubicacion;
 	        this.cantidadBuses = cantidadBuses;
 	    }
 
 	    public String getUbicacion() {
-	        return nombre;
+	        return ubicacion;
 	    }
 
 	    public int getCantidadBuses() {
-	        return capacidad;
+	        return cantidadBuses;
 	    }
 }
