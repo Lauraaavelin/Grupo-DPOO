@@ -1,5 +1,8 @@
 package SistemaTrasmilenio;
 
-public class Cliente {
-
+public abstract class Cliente {
+	
+	public static final ASEO = "aseo";
+	public static String tipo;
+	
 }
