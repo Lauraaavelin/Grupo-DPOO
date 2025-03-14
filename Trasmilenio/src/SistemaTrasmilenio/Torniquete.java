@@ -24,8 +24,30 @@ public class Torniquete {
     	  
       }
       
-      public void Salida() {
+      public String getIdentificador() {
+		return identificador;
+	}
+	public int getEntrada() {
+		return entrada;
+	}
+	public int getSalida() {
+		return salida;
+	}
+	public double getSaldo() {
+		return saldo;
+	}
+	public double getDiferencia() {
+		return diferencia;
+	}
+	public int getEstado() {
+		return estado;
+	}
+	public void Salida() {
     	  salida +=1;
     	  
+      }
+      
+      public void EncontrarDiferencia() {
+    	  diferencia=entrada-salida;
       }
 }	
