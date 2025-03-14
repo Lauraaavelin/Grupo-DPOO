@@ -1,5 +1,9 @@
 package SistemaTrasmilenio;
 
-public class Aseo extends Cliente{
+public class Aseo extends Trabajador{
+
+
+
+	
 
 }
